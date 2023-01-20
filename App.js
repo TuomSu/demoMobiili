@@ -10,7 +10,7 @@ export default function App() {
 const [text, setText] = useState('')
 
 const pressed = () => {
-  Alert.alert('You typed' + text)
+  Alert.alert('Testataan uutta haaraa' + text)
 };
 
   return (
